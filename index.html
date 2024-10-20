@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <link href="styles.css" rel="stylesheet">
+
+    <link href="res/img/logo_ico.png" rel="shortcut icon">
+
+    <title>Итальянская Комедия</title>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="res/img/logo.png" class="logo">
+    </header>
+
+    <div class="info-block">
+        <h1 class="block-header">
+            Кейс «Финансы.Семейный Бюджет»
+        </h1>
+
+        <div class="block-text">
+            <span class="text-span" id="first">
+                Все знают такое понятие, как семейный бюджет. Во многих семьях в число бытовых ситуаций входит отсутствие увеличения бюджета семьи. Наше приложение предлагает удобный, интуитивно понятный и настраиваемый менеджмеент не только своих трат, но и трат других членов семьи. Так же в нашем приложении будут несколько полезных бонусов для участников проекта.
+            </span>
+
+            <span class="text-span">
+                Сложно отслеживать, в какие сферы сколько уходит денег; может казаться что постоянные мелкие затраты - это некритично, а фактически туда уходит значительная часть бюджета (Я ВСЕ СЛИЛ В КОФИКС).
+Мы предлагаем свой вариант визуализации семейного бюджета. В сущности это общий банковский счет, с которого можно будет списывать и переводить средства до определенного лимита, определенным главой семьи, это поможет детям в случае нехватки средств быстро её восполнить.
+Также наш сервис будет включать и простой трекинг операций каждого участника и будет работать даже если у пользователей карты разных банков.
+            </span>
+        </div>
+
+        <div class="block-imgs">
+            <img class="block-image" src="res/img/graph2.png" id="first">
+
+
+        </div>
+    </div>
+
+        
+    <h1 class="head-1">Команда</h1>
+
+    <div class="choose-block">
+        <div class="choose-imgs">
+            <img class="i1" src="res/img/1.png" onmouseover="f1_1();" onmouseout="f_off()">
+            <img class="i2" src="res/img/2.png" onmouseover="f2_1();" onmouseout="f_off()">
+            <img class="i3" src="res/img/3.png" onmouseover="f3_1();" onmouseout="f_off()">
+            <img class="i4" src="res/img/4.png" onmouseover="f4_1();" onmouseout="f_off()">
+        </div>
+
+        <div class="choose-text">
+            <h1 class="text"></h1>
+            <p class="text-p"></p>
+        </div>
+    </div>
+
+
+
+    <div class="solutions">
+        <!--sol1-->
+        <div class="sol" id="first">
+            <div class="sol-block" id="first">
+                <div class="background"></div>
+                <div class="sol-text">
+                    <h1 class="sol-h1">Проблема:</h1>
+                    <p class="sol-p">Laallalalalallalla</p>
+                </div>
+            </div>
+            <div class="sol-block" id="s1">
+                <div class="sol-text">
+                    <h1 class="sol-h1">Решение:</h1>
+                    <p class="sol-p">ЛЯЛЯЛЛЯЛЯЛЯЛЯЛЯЛЯЛ</p>
+                </div>
+
+            </div>
+        </div>
+        <!--sol2-->
+        <div class="sol" id="first">
+            <div class="sol-block" id="first">
+                <div class="background"></div>
+                <div class="sol-text">
+                    <h1 class="sol-h1">Проблема:</h1>
+                    <p class="sol-p">Laallalalalallalla</p>
+                </div>
+            </div>
+            <div class="sol-block" id="s2">
+                <div class="sol-text">
+                    <h1 class="sol-h1">Решение:</h1>
+                    <p class="sol-p">ЛЯЛЯЛЛЯЛЯЛЯЛЯЛЯЛЯЛ</p>
+                </div>
+
+            </div>
+        </div>
+        <!--sol3-->
+        <div class="sol" id="first">
+            <div class="sol-block" id="first">
+                <div class="background"></div>
+                <div class="sol-text">
+                    <h1 class="sol-h1">Проблема:</h1>
+                    <p class="sol-p">Laallalalalallalla</p>
+                </div>
+            </div>
+            <div class="sol-block" id="s3">
+                <div class="sol-text">
+                    <h1 class="sol-h1">Решение:</h1>
+                    <p class="sol-p">ЛЯЛЯЛЛЯЛЯЛЯЛЯЛЯЛЯЛ</p>
+                </div>
+
+            </div>
+        </div>
+        <!--sol4-->
+        <div class="sol" id="first">
+            <div class="sol-block" id="first">
+                <div class="background"></div>
+                <div class="sol-text">
+                    <h1 class="sol-h1">Проблема:</h1>
+                    <p class="sol-p">Laallalalalallalla</p>
+                </div>
+            </div>
+            <div class="sol-block" id="s4">
+                <div class="sol-text">
+                    <h1 class="sol-h1">Решение:</h1>
+                    <p class="sol-p">ЛЯЛЯЛЛЯЛЯЛЯЛЯЛЯЛЯЛ</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+</html>
+
+<script>
+    function f1_1() {
+        document.querySelector('.text').textContent = 'Глеб';
+        document.querySelector('.text-p').textContent = 'Веб-разраб';
+
+    }
+    function f2_1() {
+        document.querySelector('.text').textContent = 'Валера';
+        document.querySelector('.text-p').textContent = 'Разраб';
+
+    }
+    function f3_1() {
+        document.querySelector('.text').textContent = 'Аля';
+        document.querySelector('.text-p').textContent = 'Дезигнер';
+
+    }
+    function f4_1() {
+        document.querySelector('.text').textContent = 'Арина';
+        document.querySelector('.text-p').textContent = 'Брейнштормер';
+
+    }
+
+    ///*
+
+    function f_off() {
+        document.querySelector('.text').textContent = '';
+        document.querySelector('.text-p').textContent = '';
+
+    }
+</script>

@@ -1,0 +1,288 @@
+@font-face {
+    font-family: Italian;
+    src: url(res/fonts/Faberge-Regular.otf);
+}
+
+*{
+    font-family: Italian;
+
+    --Wheat-- : #f0b47c;
+    --DarkWheat--: #f28d52;
+    --LightWheat--: #f2bc94;
+    --Body--: #f1a984;
+    --BodyDark--: #ce7f56;
+    --Green--: #beb934;
+
+    color: rgb(255, 249, 239);
+
+
+}
+
+html, body{
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: var(--LightWheat--);
+}
+
+body{
+    position: relative;
+    width: 80%;
+    
+    margin-left: 10%;
+}
+
+.header{
+    width: 100%;
+    height: 15vh;
+    
+}
+
+.logo{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    
+    margin-left: 25%;
+}
+
+
+.info-block{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+
+    background-color: var(--BodyDark--);
+}
+
+
+.block-header{
+    position: relative;
+
+    width: 100%;
+
+    text-align: left;
+
+    font-size: 2.5vw;
+
+
+    margin-bottom: 1vw;
+
+    padding: 1vw;
+}
+
+.block-text{
+    position: relative;
+
+    width: 100%;
+    height: fit-content;
+    display: flex;
+
+    background-color: var(--Body--);
+
+
+}
+
+.text-span{
+    position: relative;
+    width: 100%;
+    
+
+    margin-left: 2vw;
+
+    padding: 1vw;
+
+} #first{
+    margin-left: 0;
+}
+
+.block-imgs{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+
+    
+
+}
+
+.block-image{
+    position: relative;
+
+    width: 100%;
+    height: fit-content;
+
+    margin-left: 2vw;
+}
+
+
+
+.choose-block{
+
+    position: relative;
+    width: 100%;
+
+
+    margin-top: 2vw;
+    height: fit-content;
+
+}
+
+.choose-imgs{
+    position: relative;
+
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+
+    margin-bottom: 0vw;
+}
+
+.i1, .i2, .i3, .i4{
+    position: relative;
+
+    width: 25%;
+    height: fit-content;
+
+    border-radius: 90%;
+
+    transition: all 0.5s ease-in-out;
+}
+.i1:hover, .i2:hover, .i3:hover, .i4:hover{
+    width: 30%;
+}
+.i1:hover .text-h1{
+    content: "Lorum Ipsum";
+}
+
+.choose-text{
+    position: relative;
+    width: 100%;
+    height: 10vw;
+}
+.text{
+    position: relative;
+    
+    width: 100%;
+    font-size: 3vw;
+
+    text-align: center;
+
+    margin-bottom: 0;
+
+}
+
+.text-p{
+    font-size: 1.5vw;
+    margin-top: 0;
+
+
+    text-align: center;
+}
+
+.head-1{
+    position: relative;
+    width: 100%;
+
+    text-align: center;
+    font-size: 3vw;
+
+    background-color: var(--DarkWheat--);
+
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+
+}
+
+
+
+.solutions{
+    position: relative;
+    width: 100%;
+
+    margin-top: 5vw;
+}
+
+.sol{
+    position: relative;
+
+    margin-top: 2vw;
+    width: 100%;
+    display: flex;
+}
+
+.sol-block{
+    position: relative;
+    width: 100%;
+
+    margin-left: 2vw;
+    background-color: #ce7f56;
+   
+}
+
+.sol-text{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.sol-h1{
+    position: relative;
+
+    width: 100%;
+    text-align: center;
+    font-size: 2vw;
+
+    
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.sol-p{
+    position: relative;
+
+    width: 100%;
+    text-align: center;
+
+    font-size: 1vw;
+
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#s1{
+    background-color: var(--BodyDark--);
+}
+
+#s2{
+    background-color: var(--Green--);
+}
+
+#s3{
+    background-color: var(--DarkWheat--);
+}
+
+#s4{
+    background-color: var(--Wheat--);
+}
+
+.background{
+    background-color: black;
+    opacity: 30%;
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+}
+
+
